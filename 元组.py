@@ -14,3 +14,10 @@ single_tuple = ('hello',)
 test_02 = ('hello')
 print(type(single_tuple))
 print(type(test_02))
+
+# 元组和列表的转换
+tuple_to_list = list(t)
+print(tuple_to_list)
+list_to_tuple = tuple(tuple_to_list)
+print(list_to_tuple)
+
